@@ -1,0 +1,51 @@
+$bg-intro: '../../images/intro-bg.jpg';
+$bg-intro-lg: '../../images/intro-bg-lg.jpg';
+$bg-about: '../../images/about-bg.jpg';
+
+$font-Gilroy-Light: 'Gilroy Light',
+sans-serif;
+$font-Gilroy-Regular: 'Gilroy Regular',
+sans-serif;
+$font-Gilroy-Semibold: 'Gilroy Semibold',
+sans-serif;
+$font-Gilroy-Bold: 'Gilroy Bold',
+sans-serif;
+
+$color-accent: #ff4f00;
+$color-light: #fff;
+
+$color-top-text: #919191;
+$color-top-text-decor: $color-accent;
+$font-top-size: 16px;
+$font-top-text-line-height: 38px;
+$font-top-spacing: 600;
+$font-top-family: $font-Gilroy-Semibold;
+
+$font-title-size-xxs: 50px;
+$font-title-line-height-xxs: 60px;
+
+$color-title-border-left: $color-accent;
+$color-title: $color-light;
+$font-title-size: 70px;
+$font-title-line-height: 85px;
+$font-title-spacing: -20;
+$font-title-bold-family: $font-Gilroy-Bold;
+$font-title-light-family: $font-Gilroy-Light;
+
+$color-text: $color-light;
+$color-text-link: $color-light;
+$font-text-size: 19px;
+$font-text-line-height: 38px;
+$font-text-spacing: 0;
+$font-text-regular-family: $font-Gilroy-Regular;
+$font-text-semi-family: $font-Gilroy-Semibold;
+
+
+$color-btn: $color-light;
+$color-btn-bg: rgba(255, 79, 0, 0.1);
+$color-btn-border: $color-accent;
+$border-btn-width: 3px;
+$font-btn-size: 14px;
+$font-btn-line-height: 60px;
+$font-btn-spacing: 600;
+$font-btn-family: $font-Gilroy-Bold;

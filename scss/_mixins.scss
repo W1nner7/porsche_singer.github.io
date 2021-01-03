@@ -1,0 +1,31 @@
+@mixin letter-spacing-PX ($letter-spacing-CC, $font-size) {
+    @if $letter-spacing-CC !=0 {
+        letter-spacing: ($letter-spacing-CC * $font-size / 1000);
+    }
+
+    @else {
+        letter-spacing-CC: normal;
+    }
+
+}
+
+@mixin font($fz, $lh, $color, $family) {
+    font-size: $fz;
+    color: $color;
+
+    @if $lh !=0 {
+        line-height: $lh;
+    }
+
+    @else {
+        $lh: 0;
+    }
+
+    @if $family !=0 {
+        font-family: $family;
+    }
+
+    @else {
+        font-family: $font-Gilroy-Regular;
+    }
+}

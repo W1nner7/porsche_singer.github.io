@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="19"
+   viewBox="0 0 15.875 5.0270833"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="arrow-left-red.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="16"
+     inkscape:cx="24.122004"
+     inkscape:cy="13.393795"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-midpoints="false"
+     inkscape:object-paths="false"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-center="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:bbox-nodes="false"
+     inkscape:bbox-paths="false"
+     inkscape:object-nodes="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-291.97291)">
+    <g
+       id="g843"
+       transform="translate(-147.54989,123.36706)"
+       style="fill:#ff4f00;fill-opacity:1">
+      <g
+         id="g837"
+         style="fill:#ff4f00;fill-opacity:1">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#ff4f00;fill-opacity:1;stroke:none;stroke-width:0.03404928;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+           id="rect826"
+           width="15.875"
+           height="0.68508178"
+           x="147.55246"
+           y="170.77957"
+           ry="0.34254089"
+           rx="0.34254089" />
+      </g>
+      <rect
+         inkscape:transform-center-y="-1.0532099"
+         transform="rotate(-45)"
+         rx="0.34254089"
+         inkscape:transform-center-x="-1.0532074"
+         style="opacity:1;vector-effect:none;fill:#ff4f00;fill-opacity:1;stroke:none;stroke-width:0.03404928;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect832"
+         width="3.6975322"
+         height="0.68508178"
+         x="-16.767326"
+         y="225.23602"
+         ry="0.34254089" />
+      <rect
+         ry="0.34254089"
+         y="16.081718"
+         x="225.23555"
+         height="0.68508178"
+         width="3.6975322"
+         id="rect834"
+         style="opacity:1;vector-effect:none;fill:#ff4f00;fill-opacity:1;stroke:none;stroke-width:0.03404928;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         inkscape:transform-center-x="-1.0532153"
+         rx="0.34254089"
+         transform="rotate(45)"
+         inkscape:transform-center-y="1.0532124" />
+    </g>
+  </g>
+</svg>
