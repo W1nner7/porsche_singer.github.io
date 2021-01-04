@@ -12,14 +12,18 @@
     <div class="content-wrapper">
         <section class="intro">
 
+            <picture class="intro__bg">
+                <source srcset="images/intro-bg-lg.jpg" media="(min-width: 500px)">
+                <img src="images/intro-bg.jpg" alt="MDN">
+            </picture>
+
             <div class="container">
                 <div class="intro__inner">
-
                     <header class="intro__header">
                         <img class="intro__logo-img" src="images/logo.png" alt="logo">
                     </header>
 
-                    <nav class="menu">
+                    <nav class="menu menu__intro">
                         <label class="menu__label" for="check">
                         </label>
                         <input class="menu__checkbox" type="checkbox" id="check" name="check">
@@ -54,13 +58,13 @@
                             </button>
                         </form>
                     </div>
-                    <nav class="menu">
-                        <label class="menu__label">
-                            <input class="menu__checkbox" type="checkbox">
+                    <nav class="menu menu__about">
+                        <label class="menu__label" for="check">
                         </label>
+                        <input class="menu__checkbox" type="checkbox" id="check" name="check">
 
                         <ul class="menu__navigation">
-                            <li class="menu__navigation-item">
+                            <li class="menu__navigation-item menu__navigation-item--active">
                                 <a class="menu__link" href="#">Home</a>
                             </li>
                             <li class="menu__navigation-item">
@@ -89,27 +93,34 @@
 
                 <a class="about__btn" href="#">details</a>
 
-                <div class="about__gallery">
-                    <div class="about__gallery-item">
-                        <img class="about__img" src="images/about__gallery-img-1.jpg" alt="gallery__img">
-                    </div>
-                    <div class="about__gallery-item">
-                        <img class="about__img" src="images/about__gallery-img-2.jpg" alt="gallery__img">
-                    </div>
-                    <div class="about__gallery-item">
-                        <img class="about__img" src="images/about__gallery-img-3.jpg" alt="gallery__img">
-                    </div>
-                    <div class="about__gallery-item">
-                        <img class="about__img" src="images/about__gallery-img-1.jpg" alt="gallery__img">
-                    </div>
-                    <div class="about__gallery-item">
-                        <img class="about__img" src="images/about__gallery-img-2.jpg" alt="gallery__img">
-                    </div>
-                    <div class="about__gallery-item">
-                        <img class="about__img" src="images/about__gallery-img-3.jpg" alt="gallery__img">
-                    </div>
-                </div>
+                <div class="about__gallery-wrapper">
+                    <div class="about__gallery splide">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="about__gallery-item splide__slide">
+                                    <img class="about__img" src="images/about__gallery-img-1.jpg" alt="gallery__img">
+                                </div>
+                                <div class="about__gallery-item splide__slide">
+                                    <img class="about__img" src="images/about__gallery-img-2.jpg" alt="gallery__img">
+                                </div>
+                                <div class="about__gallery-item splide__slide">
+                                    <img class="about__img" src="images/about__gallery-img-3.jpg" alt="gallery__img">
+                                </div>
+                                <div class="about__gallery-item splide__slide">
+                                    <img class="about__img" src="images/about__gallery-img-1.jpg" alt="gallery__img">
+                                </div>
+                                <div class="about__gallery-item splide__slide">
+                                    <img class="about__img" src="images/about__gallery-img-2.jpg" alt="gallery__img">
+                                </div>
+                                <div class="about__gallery-item splide__slide">
+                                    <img class="about__img" src="images/about__gallery-img-3.jpg" alt="gallery__img">
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="about__gallery-shadow"></div>
+                </div>
                 <div class="about__decor-accent"></div>
             </div>
 
@@ -117,7 +128,8 @@
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+    <script src="js/splide.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 

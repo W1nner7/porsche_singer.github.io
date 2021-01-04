@@ -13,6 +13,21 @@ sans-serif;
 
 $color-accent: #ff4f00;
 $color-light: #fff;
+$color-dark: #000;
+
+$color-menu-bg-md:rgba(197, 202, 212, 0.8);
+$color-menu-item-bg-md:rgba(0, 0, 0, 0.7);
+$color-menu-item-active-bg-md:hsla(19, 100%, 50%, 0.5);
+$color-menu-item-link-md:$color-accent;
+$color-menu-item-link-active-md: $color-dark;
+
+$color-menu-bg-lg: transparent;
+$color-menu-item-bg-lg: transparent;
+$color-menu-item-active-lg: $color-accent;
+$color-menu-item-active-bg-lg: transparent;
+$color-menu-item-link-lg: $color-light;
+$color-menu-item-link-active-lg: $color-accent;
+
 
 $color-top-text: #919191;
 $color-top-text-decor: $color-accent;
@@ -39,7 +54,6 @@ $font-text-line-height: 38px;
 $font-text-spacing: 0;
 $font-text-regular-family: $font-Gilroy-Regular;
 $font-text-semi-family: $font-Gilroy-Semibold;
-
 
 $color-btn: $color-light;
 $color-btn-bg: rgba(255, 79, 0, 0.1);
